@@ -33,6 +33,6 @@
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
 
 
-    <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
+    <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/onurbagoren/catkin_ws/src/amcl.rviz"/>
 
   </launch>
