@@ -51,4 +51,4 @@ sudo apt-get install ros-<DISTRIBUTION>-<PACKAGE_NAME>
 ```
 
 #### Screenshot of localization
-![Localization](./localization.png)
+![Localization](https://github.com/onurbagoren/localization/blob/master/localization.png)
