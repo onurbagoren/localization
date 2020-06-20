@@ -28,11 +28,11 @@
 
    <!-- Spawn My Robot -->
   	<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
-        args="-urdf -param robot_description -model my_robot 
+        args="-urdf -param robot_description -model my_robot
               -x $(arg x) -y $(arg y) -z $(arg z)
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
 
 
-    <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/robond/catkin_ws/src/amcl.rviz"/>
+    <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
 
   </launch>
