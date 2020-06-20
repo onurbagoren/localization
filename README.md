@@ -51,4 +51,4 @@ sudo apt-get install ros-<DISTRIBUTION>-<PACKAGE_NAME>
 ```
 
 #### Screenshot of localization
-![Localization](/home/onurbagoren/catkin_ws/src/localization/localization.png)
+![Localization](./localization.png)
