@@ -19,7 +19,7 @@ Enter the `/home/$USER/catkin_ws/src` directory and clone the repository `git cl
 In order to run the program, initially source the catkin workspace by running the following commands:
 ```
 $ cd /home/$USER/catkin_ws/
-$ source deve/setup.bash
+$ source devel/setup.bash
 ```
 and then launch the AMCL node by running
 ```
